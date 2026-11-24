@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { color-scheme: light; }
+body { background: #fcfcf8; }
+
+:focus-visible { outline: 2px solid #c4854f; outline-offset: 2px; }
+
+input[type="range"] { accent-color: #2a4a70; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
