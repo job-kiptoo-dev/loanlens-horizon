@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google AdSense verification */}
+        {/* Google AdSense meta tag */}
         <meta
           name="google-adsense-account"
           content="ca-pub-8768631473417402"
@@ -48,7 +48,7 @@ export default function RootLayout({
 
         <Footer />
 
-        {/* Google AdSense */}
+        {/* Google AdSense script */}
         <Script
           id="google-adsense"
           async
